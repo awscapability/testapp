@@ -5,10 +5,10 @@ files:
     destination: /var/lib/tomcat/webapps
 hooks:
   BeforeInstall:
-    - location: /before_install.sh
+    - location: scripts/before_install.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: /restart_server.sh
+    - location: scripts/restart_server.sh
       timeout: 300
       runas: root
