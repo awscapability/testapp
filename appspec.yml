@@ -4,7 +4,11 @@ files:
   - source: ../bundle.tar
     destination: /var/lib/tomcat/webapps
 hooks:
+  BeforeInstall:
+    - location: deploy/before_install.sh
+      timeout: 300
+      runas: root
   AfterInstall:
-    - location: scripts/before.sh
+    - location: deploy/restart_server.sh
       timeout: 300
       runas: root
