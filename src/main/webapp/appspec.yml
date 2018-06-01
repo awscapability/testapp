@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: ../bundle.tar
+  - source: /home/ec2-user/PZDemoApp.war
     destination: /var/lib/tomcat/webapps
 hooks:
   BeforeInstall:
