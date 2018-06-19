@@ -39,7 +39,7 @@
             <button class="buttons btn btn-primary" ng-click="add(food.pizzadeep)">Deep Dish</button>
             <button class="buttons btn btn-primary" ng-click="add(food.nakedchicken)">Naked Chicken</button>
             <button class="buttons btn btn-primary" ng-click="add(food.carribjerk)">Carribbean Jerk</button>
-            <button class="buttons btn btn-success" ng-click="add(food.cheesythin)">Cheesy Bisc</button>
+            <button class="buttons btn btn-success" ng-click="add(food.cheesythin)">Cheesy Thin</button>
           </div>
           
           <br></br>
