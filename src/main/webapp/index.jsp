@@ -21,7 +21,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="jumbotron">
-          <h2><span class="text-warning">DEMO POS</span> <span class="text-success">- An Example of Online POS</span></h2>
+          <h2><span class="text-warning">DEMO POS</span> <span class="text-success">- An Example of Online Point of Sale</span></h2>
           <span class="pull-right text-muted">Business Date - May 15, 2018 (Tue)</span>
           <div class="text-muted">Dear Employees, Help the customers to build their own PIZZA</div>
         </div>
